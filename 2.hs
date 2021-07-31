@@ -1,3 +1,4 @@
+-- this fib shamelessly stolen from wikipedia
 fib :: [Int]
 fib = 0 : scanl (+) 1 fib
 

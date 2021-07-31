@@ -8,5 +8,5 @@ sublists n xs = take (length xs - n + 1) $ sublists' n xs
 
 main :: IO ()
 main = do
-    bignumber <- readFile "8.txt"
+    bignumber <- readFile "008.txt"
     print $ foldl1' max $ map (\x -> product $ map (\x -> read [x] :: Int) x) $ sublists 13 bignumber

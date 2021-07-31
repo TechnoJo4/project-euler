@@ -2,4 +2,6 @@
 *.hi
 *.exe
 
+*.txt
+
 *.sublime-*
